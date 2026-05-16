@@ -50,7 +50,7 @@ export default async function SpeakerPage({
           </div>
         )}
         <div className="min-w-0 flex-1">
-          <h1 className="text-xl font-bold leading-tight">{speaker.name}</h1>
+          <h1 className="text-xl font-bold leading-tight break-words">{speaker.name}</h1>
           <p className="text-xs text-slate-500 mt-1">
             {talks.length} {talks.length === 1 ? 'session' : 'sessions'} at PyCon US 2026
           </p>
