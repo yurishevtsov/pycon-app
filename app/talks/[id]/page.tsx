@@ -32,22 +32,22 @@ export default async function TalkPage({
             </span>
             {talk.level && <span className="px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800">{talk.level}</span>}
           </div>
-          <h1 className="text-xl font-bold leading-tight mt-1">{talk.title}</h1>
+          <h1 className="text-xl font-bold leading-tight mt-1 break-words">{talk.title}</h1>
         </div>
         <FavoriteStar talkId={talk.id} size="lg" />
       </div>
 
-      <dl className="grid grid-cols-3 gap-2 text-sm">
-        <div>
+      <dl className="grid grid-cols-2 gap-3 text-sm">
+        <div className="min-w-0">
           <dt className="text-xs uppercase tracking-wide text-slate-500">When</dt>
           <dd className="font-medium">{talk.day}</dd>
           <dd className="text-slate-600 dark:text-slate-400 text-xs">
             {talk.startTime}{talk.endTime ? ` – ${talk.endTime}` : ''}
           </dd>
         </div>
-        <div className="col-span-2">
+        <div className="min-w-0">
           <dt className="text-xs uppercase tracking-wide text-slate-500">Where</dt>
-          <dd className="font-medium">{talk.room ?? '—'}</dd>
+          <dd className="font-medium break-words">{talk.room ?? '—'}</dd>
         </div>
       </dl>
 

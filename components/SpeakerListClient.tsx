@@ -54,7 +54,7 @@ export function SpeakerListClient({ speakers, talksById }: Props) {
       </div>
       <ul className="mt-3 grid gap-2 grid-cols-1 sm:grid-cols-2">
         {filtered.map(({ speaker }) => (
-          <li key={speaker.id}>
+          <li key={speaker.id} className="min-w-0">
             <SpeakerCard speaker={speaker} talkCount={speaker.talkIds.length} />
           </li>
         ))}

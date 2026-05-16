@@ -8,7 +8,7 @@ export function TalkCard({ talk, showDay = true }: { talk: Talk; showDay?: boole
       <div className="flex items-start gap-3">
         <div className="min-w-0 flex-1">
           <Link href={`/talks/${talk.id}`} className="block group">
-            <div className="flex items-center gap-2 text-xs text-slate-500 mb-1">
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-slate-500 mb-1">
               <span
                 className={`px-1.5 py-0.5 rounded ${
                   talk.kind === 'tutorial'
@@ -20,9 +20,9 @@ export function TalkCard({ talk, showDay = true }: { talk: Talk; showDay?: boole
               </span>
               {showDay && talk.day && <span>{talk.day}</span>}
               {talk.startTime && <span>{talk.startTime}</span>}
-              {talk.room && <span className="truncate">· {talk.room}</span>}
+              {talk.room && <span>· {talk.room}</span>}
             </div>
-            <div className="font-medium leading-snug group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+            <div className="font-medium leading-snug break-words group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
               {talk.title}
             </div>
             <div className="mt-1 text-xs text-slate-500 truncate">

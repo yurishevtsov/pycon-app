@@ -5,6 +5,13 @@ import type { Talk } from '@/lib/types';
 import { TalkCard } from './TalkCard';
 
 const DAYS = ['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const SHORT: Record<string, string> = {
+  Wednesday: 'Wed',
+  Thursday: 'Thu',
+  Friday: 'Fri',
+  Saturday: 'Sat',
+  Sunday: 'Sun',
+};
 
 export function ScheduleClient({ talks }: { talks: Talk[] }) {
   const availableDays = useMemo(
@@ -24,19 +31,21 @@ export function ScheduleClient({ talks }: { talks: Talk[] }) {
   return (
     <div>
       <div className="sticky top-[57px] z-10 -mx-4 px-4 py-2 bg-slate-50/95 dark:bg-slate-950/95 backdrop-blur space-y-2">
-        <div className="flex gap-1 overflow-x-auto -mx-1 px-1">
+        <div className="grid grid-cols-5 gap-1">
           {availableDays.map((d) => (
             <button
               key={d}
               type="button"
               onClick={() => setDay(d)}
-              className={`px-3 py-1.5 rounded-full text-sm whitespace-nowrap transition-colors ${
+              aria-label={d}
+              className={`px-1 py-1.5 rounded-full text-sm font-medium transition-colors ${
                 day === d
                   ? 'bg-blue-600 text-white'
                   : 'bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800'
               }`}
             >
-              {d}
+              <span className="sm:hidden">{SHORT[d] ?? d}</span>
+              <span className="hidden sm:inline">{d}</span>
             </button>
           ))}
         </div>
@@ -58,9 +67,9 @@ export function ScheduleClient({ talks }: { talks: Talk[] }) {
         </div>
       </div>
 
-      <ul className="mt-3 grid gap-2">
+      <ul className="mt-3 grid grid-cols-1 gap-2">
         {filtered.map((t) => (
-          <li key={t.id}>
+          <li key={t.id} className="min-w-0">
             <TalkCard talk={t} showDay={false} />
           </li>
         ))}
