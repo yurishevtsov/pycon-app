@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import Link from 'next/link';
+import { RegisterServiceWorker } from '@/components/RegisterServiceWorker';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -47,6 +48,7 @@ export default function RootLayout({
           </div>
         </header>
         <main className="flex-1 mx-auto w-full max-w-3xl px-4 py-4 pb-24">{children}</main>
+        <RegisterServiceWorker />
         <nav
           className="fixed bottom-0 inset-x-0 z-20 border-t border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 backdrop-blur"
           style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}

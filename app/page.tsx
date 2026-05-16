@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getAllSpeakers, getAllTalks } from '@/lib/data';
+import { NowAndNext } from '@/components/NowAndNext';
 
 export default function Home() {
   const speakers = getAllSpeakers();
@@ -12,11 +13,13 @@ export default function Home() {
 
   return (
     <div className="space-y-4">
-      <section className="rounded-2xl bg-gradient-to-br from-blue-700 to-indigo-900 text-white p-5">
-        <h1 className="text-2xl font-bold tracking-tight">PyCon US 2026</h1>
-        <p className="mt-1 text-blue-100 text-sm">
+      <NowAndNext talks={talks} />
+
+      <section className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4">
+        <div className="text-xs uppercase tracking-wide text-slate-500">At a glance</div>
+        <div className="mt-1 text-sm text-slate-700 dark:text-slate-300">
           {speakers.length} speakers · {talkCount} talks · {tutorialCount} tutorials
-        </p>
+        </div>
       </section>
 
       <div className="grid gap-3 grid-cols-2">
