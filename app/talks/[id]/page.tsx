@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getAllTalks, getTalk } from '@/lib/data';
 import { FavoriteStar } from '@/components/FavoriteStar';
+import { ShareButton } from '@/components/ShareButton';
 
 export function generateStaticParams() {
   return getAllTalks().map((t) => ({ id: t.id }));
@@ -74,14 +75,20 @@ export default async function TalkPage({
         </p>
       </section>
 
-      <a
-        href={talk.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block text-center text-xs text-slate-500 underline pt-2"
-      >
-        View original on pycon.org
-      </a>
+      <div className="flex items-center justify-between gap-2 pt-2">
+        <a
+          href={talk.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-slate-500 underline"
+        >
+          View original on pycon.org
+        </a>
+        <ShareButton
+          title={talk.title}
+          text={`${talk.title} — ${talk.day} ${talk.startTime}${talk.room ? ' · ' + talk.room : ''}`}
+        />
+      </div>
     </article>
   );
 }
