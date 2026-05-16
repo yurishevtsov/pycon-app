@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PyCon US 2026 — Speaker & Talks Browser
 
-## Getting Started
+A mobile-first, installable web app for browsing PyCon US 2026 speakers, talks, and schedule. Built as a static Next.js site over scraped data from `us.pycon.org`.
 
-First, run the development server:
+> Unofficial. Data is scraped at build time; the site has no runtime dependency on pycon.org.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## What you can do
+
+- **Browse all 122 speakers** — photos, bios, and links to each speaker's sessions
+- **Search across speakers, talk titles, and abstracts** — live, client-side, no server round-trips
+- **View talk details** — title, abstract, day/time/room, experience level, cross-linked speakers
+- **Filter the schedule** by day (Wed–Sun) and by kind (talks vs tutorials)
+- **Star favorites** — saved to `localStorage` on your device, persists across visits
+- **Search speakers on LinkedIn / GitHub** — one-tap external search by speaker name; opens the LinkedIn or GitHub app on mobile via OS universal links if installed
+- **Install to home screen** — PWA manifest, theme color, and maskable icon ship out of the box
+
+## Stack
+
+| Layer | Choice |
+|---|---|
+| Framework | Next.js 16 (App Router, Turbopack) |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4 |
+| Scraping | `cheerio` + Node `fetch` (no headless browser needed) |
+| Hosting | Vercel (static site; Fluid Compute runtime available but not required) |
+| Persistence | `localStorage` (favorites only — no backend) |
+
+## Architecture
+
+```
+us.pycon.org HTML
+      │
+      ▼
+scripts/scrape.ts ── (24h-cached .cache/*.html)
+      │
+      ▼
+data/talks.json + data/speakers.json
+      │
+      ▼
+lib/data.ts (typed JSON imports)
+      │
+      ▼
+app/*.tsx (Server Components)
+      │
+      ▼
+244 static HTML pages (5 routes + 122 speakers + 115 talks)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Every page is statically pre-rendered via `generateStaticParams`, so the deployed site is plain HTML/JS — zero runtime fetches to PyCon's servers.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Scraper
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`scripts/scrape.ts` walks:
+1. `/2026/schedule/talks/` and `/2026/schedule/tutorials/` → unique presentation IDs
+2. each `/schedule/presentation/{id}/` → title, abstract, time, room, level, speaker links
+3. each linked `/speaker/profile/{id}/` → name, photo, bio
 
-## Learn More
+Resilience: SHA-keyed disk cache (`.cache/`) with 24h TTL, 4× exponential-backoff retry, capped concurrency (4 simultaneous fetches) to be polite to pycon.org. A single re-run after a network blip resumes near-instantly from cache.
 
-To learn more about Next.js, take a look at the following resources:
+### Why no service worker (yet)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The manifest and icons are in place — the app is already installable to the home screen on iOS/Android. A service worker for true offline support is the obvious next add (the data is already static JSON, so caching is straightforward).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Development
 
-## Deploy on Vercel
+```bash
+npm install
+npm run scrape   # populates data/*.json; cached for 24h
+npm run dev      # http://localhost:3000
+npm run build    # production build (regenerates all 244 static pages)
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Refreshing data
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+rm -rf .cache    # optional: force re-fetch from pycon.org
+npm run scrape
+npm run build
+```
+
+## Deployment
+
+Hosted on [Vercel](https://vercel.com). Any push to `main` triggers an automatic build & deploy. The build re-uses the committed `data/*.json`; no scraping happens on Vercel's servers.
+
+## Project layout
+
+```
+app/
+  page.tsx                # /
+  speakers/page.tsx       # /speakers (list + search)
+  speakers/[id]/page.tsx  # /speakers/:id
+  talks/[id]/page.tsx     # /talks/:id
+  schedule/page.tsx       # /schedule (day + kind filter)
+  favorites/page.tsx      # /favorites
+  layout.tsx              # shared header + bottom nav
+components/               # SpeakerCard, TalkCard, FavoriteStar, *Client
+lib/
+  data.ts                 # JSON loaders, search-URL helpers
+  types.ts                # Speaker, Talk
+  useFavorites.ts         # localStorage hook
+scripts/scrape.ts         # scraper
+data/                     # generated speakers.json + talks.json (committed)
+public/                   # manifest.webmanifest + SVG icons
+```
+
+## License
+
+MIT. Data on this site is owned by the Python Software Foundation / individual speakers; this app simply presents publicly available information for personal use during the conference.

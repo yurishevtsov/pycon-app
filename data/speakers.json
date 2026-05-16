@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "65",
+    "name": "Aayush Gauba",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/65.webp.256x256_q85.jpg",
+    "bio": "Aayush Gauba is a Python developer and security researcher working on practical defenses for modern web applications. His work focuses on behavior-based abuse detection, adaptive middleware, and the responsible use of lightweight machine learning in application security. In parallel, he conducts research in quantum and quantum-inspired computing, exploring how ideas from quantum systems can inform robust and interpretable models in classical software. He has experience building and deploying systems across Python web frameworks including Django, Flask, and FastAPI, and has spoken previously on Python security and computing topics at community conferences.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/65/",
+    "talkIds": [
+      "61"
+    ]
+  },
+  {
+    "id": "146",
+    "name": "Aayush Kumar JVS",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/146.webp.256x256_q85.jpg",
+    "bio": "Aayush Kumar JVS is a machine learning engineer and Python developer with experience building and deploying ML systems across research and production environments. His work focuses on making large language models more efficient and accessible through practical Python tooling, including optimization and performance. He has contributed to open-source ML projects and worked on scalable data and inference pipelines, with an emphasis on reproducibility, resource-aware design, and developer-friendly workflows. His interests include model efficiency, applied ML, NLP, and bridging the gap between experimentation and real-world deployment using Python.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/146/",
+    "talkIds": [
+      "138"
+    ]
+  },
+  {
+    "id": "125",
+    "name": "Abhishek Reddypalle",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/125.webp.256x256_q85.jpg",
+    "bio": "Abhishek Reddypalle is a PhD researcher at Purdue University’s Trustworthy Software Ecosystems Lab, focusing on software supply-chain security. He contributes to and participates in supply-chain efforts across the CNCF and OpenSSF communities.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/125/",
+    "talkIds": [
+      "116"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Adrien Cacciaguerra",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/25.webp.256x256_q85.jpg",
+    "bio": "Hey, I am Adrien, a French Software Engineer for 8 years. I am a co-creator of CodSpeed, a Continuous Performance Analysis solution that helps tech companies and Open-Source projects prevent performance issues directly in their CI pipelines. I am passionate about Developer Experience, Performance, Open-Source, Python, TypeScript, and Rust. These passions led me to co-author Swarmion, an open-source set of tools to develop Serverless micro-services.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/25/",
+    "talkIds": [
+      "24"
+    ]
+  },
+  {
+    "id": "52",
+    "name": "Al Sweigart",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/52.webp.256x256_q85.jpg",
+    "bio": "Al Sweigart (rhymes with \"why dirt\") is a software developer, tech book author, artist, and Fellow of the Python Software Foundation. He's written a dozen programming books, including \"Automate the Boring Stuff with Python\" and \"The Recursive Book of Recursion.\" He is the maintainer of several open source projects, including PyAutoGUI and pyperclip. He enjoys writing software, creating digital art, fostering cats, donating platelets, folding origami, and picking up litter.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/52/",
+    "talkIds": [
+      "49"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Alison Orellana-Rios",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/9.webp.256x256_q85.jpg",
+    "bio": "MSc. Computer Engineer, Software Developer, Organizer of the PyLadies Cochabamba community, Ambassador at Women Techmakers, Lead at AWS User Group Cochabamba, Teacher and Instructor of programming and computing at Cisco Networking Academy. Lecturer, passionate about learning and teaching in various areas.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/9/",
+    "talkIds": [
+      "9"
+    ]
+  },
+  {
+    "id": "108",
+    "name": "Andres Pineda",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/108.webp.256x256_q85.jpg",
+    "bio": "Andres is a Microsoft MVP, a Senior Cloud Developer, and a member of the @RealPython team. A dedicated Open Source contributor and father of three, Andres enjoys conversations about Git, Developer Productivity, and building a more inclusive web.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/108/",
+    "talkIds": [
+      "103"
+    ]
+  },
+  {
+    "id": "110",
+    "name": "Andrew Case",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/110.webp.256x256_q85.jpg",
+    "bio": "Andrew Case is a senior incident response handler and malware analyst. He has conducted numerous large-scale investigations that span enterprises and industries. He is a core developer on the Volatility memory analysis framework and a co-author of the highly popular and technical forensics analysis book \"The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory\". Andrew's primary research focus is physical memory analysis, and he has published a number of peer-reviewed papers in the field. He has presented his research at conferences including Black Hat, DEF CON, RSA, SOURCE, BSides, OMFW, GFirst, and DFRWS.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/110/",
+    "talkIds": [
+      "104"
+    ]
+  },
+  {
+    "id": "126",
+    "name": "Andrew Nesbitt",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/126.webp.256x256_q85.jpg",
+    "bio": "Andrew Nesbitt is a package manager nerd who builds tools and datasets for understanding open source software at scale. He created ecosyste.ms, an open data platform indexing package metadata, repository data, and CI configurations across PyPI, npm, crates.io, and dozens of other ecosystems. He maps the infrastructure that supports open source: package managers, dependency graphs, and the security properties of software supply chains. ecosyste.ms tracks over 6.5 million Dependabot pull requests, extracts SBOMs from hundreds of thousands of Docker images, and provides open APIs for researchers and maintainers working on ecosystem health. Andrew shares this work through talks at FOSDEM, PackagingCon, Open Source Summit, and Ruby conferences. He organises the Package Management devroom at FOSDEM. Previously he created Libraries.io, one of the first large-scale dependency tracking platforms for open source.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/126/",
+    "talkIds": [
+      "117"
+    ]
+  },
+  {
+    "id": "53",
+    "name": "Angelik Laboy Torres",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/53.webp.256x256_q85.jpg",
+    "bio": "Angelik Laboy Torres has been programming since she had knowledge of what it was. Whether it was creating wearable technologies to detect stress levels or a non-invasive method to detect types of diabetes, Laboy found intrigue in discovering how to think outside the box. For these, she has been recognized with many allocates such as Intel Excellence in Computer Science, National Award Winner with NCWIT Aspirations in Computing, Yale Science & Engineering Association, Air Force, and the Organization of American States. As time went on, she discovered the power of storytelling through directing VR experiences and as an engineer, has worked for The Walt Disney Studios, HBO Max, Dolby, Inworld AI, and most recently, Retool. Angelik works as a developer advocate helping to expand what it means to be a builder in today’s era of AI.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/53/",
+    "talkIds": [
+      "50"
+    ]
+  },
+  {
+    "id": "98",
+    "name": "Anshul Jannumahanti",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/98.webp.256x256_q85.jpg",
+    "bio": "Anshul Jannumahanti is a software engineer and aspiring machine learning developer with academic training in software engineering and hands-on experience building Python applications. He has worked on diverse projects involving web backends, data processing, and automation, and is passionate about applying practical Python frameworks and tooling to real-world problems. His interests include building reproducible ML workflows, scalable APIs, and exploring the intersection of software engineering and applied AI.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/98/",
+    "talkIds": [
+      "93"
+    ]
+  },
+  {
+    "id": "103",
+    "name": "Arie Bovenberg",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/103.webp.256x256_q85.jpg",
+    "bio": "Arie is the author of whenever and slotscheck, and works as a principal software engineer at KLM Royal Dutch Airlines. He’s been using Python since the 2.7 era, first as a civil engineer and now as a developer focused on helping others write maintainable, well-understood code through mentoring, talks, and open-source work.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/103/",
+    "talkIds": [
+      "98"
+    ]
+  },
+  {
+    "id": "46",
+    "name": "Ariel Ortiz",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/46.webp.256x256_q85.jpg",
+    "bio": "Ariel Ortiz is a programming languages enthusiast. Since 1994, he has been a full-time faculty member at the Tecnológico de Monterrey in Mexico, where he primarily teaches undergraduate computer science courses. His first encounter with Python was in 2001, and since then, he has integrated it into several of his classes, including Advanced Algorithms and Compiler Design. He is an active member of ACM’s Special Interest Group on Computer Science Education (SIGCSE) and has been a speaker at PyCon US, PyCon Latam, Python Brasil, and EuroPython conferences. Additionally, he is the main author of the Spanish-language websites EduPython and RIP3.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/46/",
+    "talkIds": [
+      "44"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Arthur Pastel",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/24.webp.256x256_q85.jpg",
+    "bio": "Hi, I'm Arthur, a software engineer based in Paris 🇫🇷 I worked as an engineer in a few tech companies over the past years, mostly building software with Python, but I'm also passionate about (too ??) many other software fields. 3 years ago, I founded CodSpeed, a Continuous Performance Analysis solution helping tech companies and Open-Source projects prevent performance issues directly in their CI pipelines. I'm also an open-source enthusiast and love to contribute when possible. 4 years ago, I built ODMantic, an ODM for MongoDB and Python. It's a kind of ORM built on top of Pydantic to provide a seamless model definition and integration with FastAPI.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/24/",
+    "talkIds": [
+      "24"
+    ]
+  },
+  {
+    "id": "149",
+    "name": "Avik Basu",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/149.webp.256x256_q85.jpg",
+    "bio": "Avik is a seasoned data scientist and software engineer passionate about writing elegant code and building intelligent systems that benefit humanity.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/149/",
+    "talkIds": [
+      "141"
+    ]
+  },
+  {
+    "id": "107",
+    "name": "Benjamin Glick",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/107.webp.256x256_q85.jpg",
+    "bio": "Benjamin Glick is a Senior Software Engineer at NVIDIA, specializing in GPU communication libraries, high-performance computing, and scalable system software. He currently focuses on NVSHMEM, making high-performance, GPU-aware distributed programming more accessible to developers. Prior to NVIDIA, Ben held engineering roles at AI hardware startups including SAPEON and SambaNova Systems, where he designed distributed operating systems, memory and I/O architectures, collective communication libraries, and virtualization frameworks for custom AI accelerators. He has led software and hardware co-design efforts spanning multiple product generations, from pre-silicon through deployment. Ben’s expertise includes parallel and distributed runtime systems, accelerator and OS architecture, GPU- and network-optimized communication, and HPC/AI infrastructure. His work has been published at SC and ROSS and deployed in advanced AI and HPC environments worldwide.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/107/",
+    "talkIds": [
+      "102"
+    ]
+  },
+  {
+    "id": "154",
+    "name": "Bhavani Ravi",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/154.webp.256x256_q85.jpg",
+    "bio": "Bhavani Ravi is a freelance data engineer, international tech speaker, and technical trainer (thelearning.dev). With a decade of Software engineering experience, she now helps teams build data platforms",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/154/",
+    "talkIds": [
+      "146"
+    ]
+  },
+  {
+    "id": "123",
+    "name": "Brett Slatkin",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/123.webp.256x256_q85.jpg",
+    "bio": "Brett Slatkin is the author of the book Effective Python and has been writing Python code professionally for the past 20 years. He works as a principal software engineer in the Office of the CTO at Google developing technology strategies and rapid prototypes. His experience includes: founding Google Surveys, a platform for collecting machine learning and market research datasets; launching Google App Engine, the company's first cloud computing product; scaling Google's A/B experimentation products to billions of users; and co-creating PubSubHubbub, the W3C standard for real-time RSS feeds. He earned his B.S. in Computer Engineering from Columbia University in the City of New York.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/123/",
+    "talkIds": [
+      "115"
+    ]
+  },
+  {
+    "id": "188",
+    "name": "Brittany Reynoso",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/188.webp.256x256_q85.jpg",
+    "bio": "Brittany is a Software Engineer at Meta on the Python Runtime team. She is a co-author on PEP 810: Explicit Lazy Imports and develops Lifeguard, a static analysis tool to support Lazy Imports adoption. As well, Brittany has contributed to Cinder & SkyBison.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/188/",
+    "talkIds": [
+      "176"
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Bruce Eckel",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/47.webp.256x256_q85.jpg",
+    "bio": "Bruce Eckel (www.MindViewLLC.com) is the author of Thinking in C++, Thinking in Java, Atomic Scala, On Java 8, Atomic Kotlin, and other books. He’s written numerous blog posts (www.BruceEckel.com), over 150 magazine articles, and has given hundreds of presentations throughout the world. He was a founding member of the ANSI/ISO C++ committee and was for many years the chair of both the C++ and Java tracks at the Software Development Conference. With James Ward, he creates the Happy Path Programming podcast. He cofounded the JavaPosse Roundup Conference (now the Winter Tech Forum) and created Evolve Coworking in Crested Butte, CO. He periodically holds Developer Retreats and provides public and private training and consulting in programming languages and software design.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/47/",
+    "talkIds": [
+      "45"
+    ]
+  },
+  {
+    "id": "105",
+    "name": "Camila Hinojosa Añez",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/105.webp.256x256_q85.jpg",
+    "bio": "AWS Community Builder en AI Engineering y Cloud Club Captain. Estudiante de último año de Ingeniería Civil en Ciencias de la Computación (UANDES, Chile). Disfruta ser speaker sobre tecnología, cloud e IA, y actualmente investiga eye-tracking en entornos de realidad virtual aplicado a decisiones financieras. Le motiva enseñar, aprender y construir comunidad en torno a la tecnología.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/105/",
+    "talkIds": [
+      "101"
+    ]
+  },
+  {
+    "id": "151",
+    "name": "Carl Meyer",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/151.webp.256x256_q85.png",
+    "bio": "Carl builds developer tools at Astral. When he's not chasing a more elegant algorithm, he likes to chase frisbees, hockey pucks, and Strava PRs.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/151/",
+    "talkIds": [
+      "143"
+    ]
+  },
+  {
+    "id": "183",
+    "name": "Carol Willing",
+    "photoUrl": null,
+    "bio": "-",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/183/",
+    "talkIds": [
+      "172"
+    ]
+  },
+  {
+    "id": "112",
+    "name": "Catherine Nelson",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/112.webp.256x256_q85.jpg",
+    "bio": "Catherine Nelson is a solo builder, developing software to extract data from difficult documents. She is the author of two O'Reilly books: Software Engineering for Data Scientists (2024) and Building Machine Learning Pipelines (2020). Previously, she was a Principal Data Scientist at SAP Concur, where she deployed NLP models to production and created innovative features including ML-powered carbon emissions analytics. Catherine holds a PhD in Geophysics from Durham University and a Masters in Earth Sciences from Oxford University.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/112/",
+    "talkIds": [
+      "172",
+      "106"
+    ]
+  },
+  {
+    "id": "99",
+    "name": "Constance Martineau",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/99.webp.256x256_q85.jpg",
+    "bio": "Constance Martineau is a Staff Product Manager at Astronomer and a long-time contributor to the Apache Airflow open-source project, where she’s helped shape features across Airflow 3. She works at the intersection of data engineering, orchestration, and developer experience — turning complex infrastructure into tools that feel intuitive and fun. When she’s not working on new features, she’s usually automating something else, like her coffee machine, her lights, or (in this case) an “On Air” sign that knows when she’s in a meeting. Constance lives in Montréal and spends her free time painting, experimenting with Python side projects, and trying (unsuccessfully) to keep her plants alive.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/99/",
+    "talkIds": [
+      "94"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Corey Wade",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/3.webp.256x256_q85.jpg",
+    "bio": "Corey Wade, MS Mathematics, MFA Writing & Consciousness, developed Berkeley Coding Academy to bring Python, Data Science, Machine Learning, and AI to a larger audience. During the school year, Corey teaches Math and Programming at the Independent Study Program of Berkeley High School where has worked since 2004. Corey has published iPhone apps with students, designed classes to build websites, and run after-school coding programs to support girls and underserved students. A Springboard Data Science graduate, Corey has worked in industry developing Data Science curricula for Pathstream and Hello World. A multiple grant award winner, lead author of The Python Workshop(2019, 2022), author of Hands-on Gradient Boosting with XGBoost and Scikit-learn(2020), Corey’s passion in education comes from teaching advanced technical concepts to empower students of all ages. When not coding or teaching, Corey reads poetry and studies the stars.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/3/",
+    "talkIds": [
+      "3"
+    ]
+  },
+  {
+    "id": "182",
+    "name": "Cristián Maureira-Fredes",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/182.webp.256x256_q85.jpg",
+    "bio": "Cristián is a PSF Fellow and Board Director that is currently working at The Qt Company as Principal R&D Manager, in charge of the Qt Core (Berlin), Qt Bridges, and Qt for Python teams, from which he has been part of the development team for more than 7 years. In his spare time, Cristián is a serial conference and community organizer in many countries, and participates in different initiatives like the translation of the Python documentation into Spanish, a Spanish speaking worldwide community, EuroPython Society, PyPI moderation, and others related Python and Qt.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/182/",
+    "talkIds": [
+      "171"
+    ]
+  },
+  {
+    "id": "175",
+    "name": "Dan Craig",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/175_9xawONj.webp.256x256_q85.png",
+    "bio": "Dan Craig is a software engineering manager at Varda Space Industries. By education an aerospace engineer, but a software engineer by trade, he has worked on aircraft flight displays, SaaS web applications, continuous integration, testing, and simulation tools for rockets, and most recently flight, ground, and test software for spacecraft. Dan lives in southern California with his wife and son.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/175/",
+    "talkIds": [
+      "165"
+    ]
+  },
+  {
+    "id": "120",
+    "name": "Daniel Chen",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/120.webp.256x256_q85.jpg",
+    "bio": "Daniel is an experienced data science educator, starting his teaching journey with The Carpentries in 2014 and now working as a lecturer at the University of British Columbia teaching data science courses to undergraduates and master's students. He also works in Developer Relations at Posit, PBC (formerly RStudio, PBC). Daniel is passionate about empowering others to harness the power of data through effective communication, interactive visualizations, and the tools that make it possible.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/120/",
+    "talkIds": [
+      "112"
+    ]
+  },
+  {
+    "id": "147",
+    "name": "Daniel Hervás",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/147.webp.256x256_q85.jpg",
+    "bio": "Daniel is a software engineer with a background in VC-backed startups. He's now the lead engineer at Reckon Digital, where he directs and coordinates several projects with the UN's World Food Programme, and speaks in some of the biggest tech conferences in Europe.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/147/",
+    "talkIds": [
+      "139"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Daniel Rodriguez",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/30.webp.256x256_q85.jpg",
+    "bio": "Technical Product Manager for CUDA Python at NVIDIA.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/30/",
+    "talkIds": [
+      "29"
+    ]
+  },
+  {
+    "id": "92",
+    "name": "Daniel Szoke",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/92.webp.256x256_q85.jpg",
+    "bio": "Hello, my name is Daniel Szoke and I am a software engineer at Sentry, where I currently maintain Sentry CLI and the Rust SDK. When I started working for Sentry about two and a half years ago, I joined as a Python developer working on our Python SDK. A few months in, I learned Rust, so that I could take over maintenance of the Sentry CLI, which is written in Rust. More recently, I have gone all in on Rust by taking over maintenance of the Rust SDK and moving away from my work on the Python SDK. While I continue to admire Python for its simplicity, ease of use, and excellent library ecosystem — especially when it comes to data science — I am passionate about the Rust programming language and want to share that passion with developers of other languages, with the hope that I can spark a similar passion for Rust in them.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/92/",
+    "talkIds": [
+      "88"
+    ]
+  },
+  {
+    "id": "128",
+    "name": "Dawn Wages",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/128.webp.256x256_q85.jpg",
+    "bio": "Dawn Gibson Wages is a software engineer, ethical open source advocate, and community leader. She is the former Chair of the Python Software Foundation (volunteer) and currently works as Director of Community and Developer Relations at Anaconda, the largest scientific Python distribution in thr world. Her deep investment in the community is spent championing inclusive practices and sustainable growth in open source ecosystems. Dawn’s work bridges technical expertise with a commitment to equity, sovereignty, and collaboration in the developer community. When she's not working in the Python ecosystem, she is watching Star Trek in Philadelphia with her wife and two dogs.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/128/",
+    "talkIds": [
+      "119",
+      "123"
+    ]
+  },
+  {
+    "id": "45",
+    "name": "Diego Caceres Solis",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/45.webp.256x256_q85.jpg",
+    "bio": "Ingeniero en Sistemas Computacionales por la UTFSM, Diplomado en Ciberseguridad y Seguridad de la Información por la USACH, y Máster en Dirección de Ciberseguridad, Hacking Ético y Seguridad Ofensiva por la UEMC y la Escuela Internacional de Posgrados. Especialista con una sólida formación complementada por múltiples cursos, certificaciones y capacitaciones en Seguridad Ofensiva, Inteligencia Artificial, Cloud Computing, Threat Hunting y otras disciplinas avanzadas del ámbito tecnológico. Cuenta con una amplia experiencia liderando equipos de trabajo en infraestructura de Tecnologías de la Información, ciberseguridad y desarrollo de aplicaciones. Su trayectoria destaca especialmente por estudios e investigaciones en Seguridad Ofensiva e Inteligencia Artificial, lo que le ha permitido participar como expositor en charlas, talleres y demostraciones tanto a nivel nacional como internacional. Actualmente se desempeña como docente en diversas instituciones nacionales e internacionales, contribuyendo a la formación de profesionales en áreas críticas de la ciberseguridad y la tecnología.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/45/",
+    "talkIds": [
+      "43"
+    ]
+  },
+  {
+    "id": "101",
+    "name": "Elizabeth Black",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/101.webp.256x256_q85.jpg",
+    "bio": "I love building entire applications and tools and sharing them with the public. I am passionate about building tools that educate and empower others all while combining humor and creativity.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/101/",
+    "talkIds": [
+      "96"
+    ]
+  },
+  {
+    "id": "106",
+    "name": "Elizabeth Fuentes",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/106.webp.256x256_q85.jpg",
+    "bio": "As a Developer Advocate, where she helps developers build production-ready AI applications. With a background spanning data analytics, machine learning, and developer education, she specializes in making complex AI concepts accessible through hands-on tutorials, open-source projects, and live demos. I create practical resources for RAG systems, agentic workflows, and multimodal applications—focusing on code that developers can deploy immediately. As a conference speaker and workshop instructor, I bridge the gap between cutting-edge AI research and real-world implementation.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/106/",
+    "talkIds": [
+      "101"
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Emin Martinian",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/42.webp.256x256_q85.jpg",
+    "bio": "Emin Martinian has over two decades of experience in technical research and development. He enjoys finding creative solutions to complex problems in software engineering, machine learning, data compression, prediction, optimization, health, and finance. He has over 10 patents granted and 30 peer reviewed publications based on research with Mitsubishi Electric Research Labs and MIT (where he earned a PhD in EE/CS). On the development side, Emin has built software and led teams at small start-ups such as OPC Technologies (acquired by MentorGraphics), ViveBenefits and others as well as larger companies such as Bain Capital and DCG. He is available for consulting through his company AOCKS LLC.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/42/",
+    "talkIds": [
+      "40"
+    ]
+  },
+  {
+    "id": "1",
+    "name": "Emma Smith",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/1.webp.256x256_q85.jpg",
+    "bio": "Emma is a CPython Core Developer working at NVIDIA on Python and packaging, both internally and in the open source community. She is a long-time mypy core team member, and the author of two Python Enhancement Proposals introducing the compression.zstd module in Python 3.14 and the py.typed file for packaging. She co-leads the Rust for CPython project, an effort to introduce the Rust programming language into CPython. She is the mother of a mischievous cat and a feisty hamster.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/1/",
+    "talkIds": [
+      "1"
+    ]
+  },
+  {
+    "id": "136",
+    "name": "Fabio Pliger",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/136.webp.256x256_q85.jpg",
+    "bio": "Fabio Pliger is the creator of PyScript and a Principal Software Architect at Anaconda, Inc, where he has been working for 11 years. Fabio is a fellow member of the PSF and the EuroPython Society, one of the Founders of the Python Italia association, and former Chairman of the EuroPython Society, where he served from 2012 to 2016. As part of his work at both associations, he helped organize and co-chair several Pycon and Europython over the years. He currently lives in beautiful Austin, Texas with his family, after having spent most of his life in Italy and Brazil.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/136/",
+    "talkIds": [
+      "126"
+    ]
+  },
+  {
+    "id": "134",
+    "name": "Fay Shaw",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/134.webp.256x256_q85.jpg",
+    "bio": "Hi! I’m Fay and I am a data scientist and an organizer for PyLadies Boston. I am passionate about using data for good and I am an advocate for cyclist and pedestrian safety.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/134/",
+    "talkIds": [
+      "124"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Gift Ojeabulu",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/23.webp.256x256_q85.jpg",
+    "bio": "Gift Ojeabulu is a data scientist, AI/ML practitioner, and community builder with over six years of experience at the intersection of AI, software engineering, sport analytics and developer advocacy. He has grown Iterative.ai’s global community to over 30,000 data and AI professionals and shaped developer relations for AI startups like Deci AI and DagsHub. A four-time AWS Community Builder in Machine Learning and AI, he also serves as a board advisor to DevNetwork (USA) in AI As co-founder of Data Community Africa, the largest Black data and AI community on the continent, Gift leads initiatives supporting education, open-source collaboration, and professional growth, including the African Data Community Newsletter, reaching 2,500+ subscribers in 80 countries. He has contributed to DataFestAfrica and leads the Lagos MLOps community, focusing on practical MLOps, large language models, and open-source AI. Through his work, Gift connects African talent to global opportunities and fosters sustainable innovation across the continent’s AI ecosystem.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/23/",
+    "talkIds": [
+      "23"
+    ]
+  },
+  {
+    "id": "166",
+    "name": "Gwyneth Peña-Siguenza",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/166.webp.256x256_q85.jpg",
+    "bio": "I'm a Python Developer Advocate at Microsoft, where I help engineers build with AI on Azure and work to make the platform more Pythonic through open-source contributions, SDK improvements, and service design input. Outside of work, I maintain LearnToCloud, an open-source learning platform that has helped thousands of developers break into cloud engineering.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/166/",
+    "talkIds": [
+      "159"
+    ]
+  },
+  {
+    "id": "109",
+    "name": "Hala Ali",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/109.webp.256x256_q85.png",
+    "bio": "Hala Ali is a PhD student in the Department of Computer Science at Virginia Commonwealth University (VCU), Richmond, Virginia, USA. Her research interests include memory forensics, software supply chain security, IoT, and fog computing. She received her master’s degree in Computer Science and Information Security from the National Institute of Technology, Warangal, Telangana, India, in 2020. Ali is a recipient of the Best Paper Award at the 25th Annual Digital Forensics Research Conference (DFRWS) and the USCYBERCOM Defender Award.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/109/",
+    "talkIds": [
+      "104"
+    ]
+  },
+  {
+    "id": "178",
+    "name": "Hosted by Abigail, Chris, Cristián, and Lorena",
+    "photoUrl": null,
+    "bio": "",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/178/",
+    "talkIds": [
+      "174",
+      "175",
+      "177"
+    ]
+  },
+  {
+    "id": "145",
+    "name": "Hugo Leyton",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/145.webp.256x256_q85.jpg",
+    "bio": "Hugo Leyton es ingeniero de software con más de 4 años de experiencia desarrollando soluciones complejas en entornos conectados, utilizando tecnologías como Python, TypeScript, Node.js, React y plataformas cloud como AWS y Google Cloud. Ha colaborado en proyectos de optimización de infraestructura cloud, diseño de arquitecturas escalables y desarrollo de aplicaciones educativas que lograron mejoras de retención estudiantil. También ha ejercido como instructor y mentor técnico, orientado al desarrollo de soluciones robustas y a la integración entre hardware y software mediante modelos de datos y patrones de interoperabilidad.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/145/",
+    "talkIds": [
+      "137"
+    ]
+  },
+  {
+    "id": "97",
+    "name": "Iason Krommydas",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/97.webp.256x256_q85.jpg",
+    "bio": "I'm a PhD student in the Department of Physics and Astronomy at Rice University, conducting research in high-energy physics as a member of the CMS experiment at the Large Hadron Collider at CERN. My work focuses on studying Higgs boson decays into two photons, analyzing data collected by the CMS detector, and contributing to software development for large-scale scientific analyses. I'm passionate about scientific computing and open-source tools that enable reproducible and efficient research. I’m maintainer of Awkward Array, an array library for nested, variable-sized data, using NumPy-like idioms, and an author and maintainer of Coffea, a toolkit designed to simplify data analysis in particle physics. With deep experience in the scientific Python ecosystem, I enjoy building tools that drive insight and accelerate scientific discovery.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/97/",
+    "talkIds": [
+      "92"
+    ]
+  },
+  {
+    "id": "102",
+    "name": "Iblin Rocio Mocho",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/102.webp.256x256_q85.jpg",
+    "bio": "Soy una programadora de Python relativamente nueva, originaria de una región rural de Bolivia, donde el acceso a la tecnología y a la educación técnica es limitado. Mi interés en la programación surge del deseo de utilizar la tecnología como una herramienta práctica para resolver problemas reales en mi comunidad. Me interesa especialmente el uso de Python para proyectos con impacto social, accesibilidad y preservación cultural, en particular relacionados con lenguas indígenas con poca representación digital. A través de mi aprendizaje en Python, busco demostrar que es posible crear soluciones significativas incluso desde contextos con recursos limitados. Actualmente continúo desarrollando mis habilidades técnicas mientras exploro cómo la programación puede apoyar a comunidades rurales y fortalecer identidades culturales.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/102/",
+    "talkIds": [
+      "97"
+    ]
+  },
+  {
+    "id": "60",
+    "name": "Isabel Michel",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/60.webp.256x256_q85.jpg",
+    "bio": "Isabel Michel is a Master's student at Stanford University specializing in AI and machine learning with a passion for democratizing tech education. As a summer lecturer and teaching assistant for the Stanford University Computer Science department and a graduate mentor for AI4ALL, she's committed to making computer science education accessible to all. A first-generation college student herself, she believes everyone should have the opportunity to learn and build with cutting-edge technology.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/60/",
+    "talkIds": [
+      "56"
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Italo Carvalho Vianelli Ribeiro",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/76.webp.256x256_q85.jpg",
+    "bio": "I’m a Brazilian Software Engineer currently working at Rakuten in Japan. I’ve been involved in the Python community since 2019, starting with the local Python and PyLadies groups in São Carlos, Brazil. Today, I continue contributing to the community while living and working in Japan.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/76/",
+    "talkIds": [
+      "73"
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Jacob Coffee",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/31_TaOLsZ6.webp.256x256_q85.png",
+    "bio": "Jacob Coffee is staff member at the Python Software Foundation, Litestar maintainer, and CPython triager. He supports key Python services such as PyPI.org and Python.org while also contributing to the maintenance of the Litestar ecosystem which boasts libraries such as Litestar, Advanced Alchemy, Polyfactory, and more. He is passionate about open-source development, the mission of the PSF, and enhancing the tools that empower developers worldwide.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/31/",
+    "talkIds": [
+      "30"
+    ]
+  },
+  {
+    "id": "184",
+    "name": "Jelle Zijlstra",
+    "photoUrl": null,
+    "bio": "-",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/184/",
+    "talkIds": [
+      "172"
+    ]
+  },
+  {
+    "id": "180",
+    "name": "Jennifer Slotnick",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/180.webp.256x256_q85.jpg",
+    "bio": "Jennifer Slotnick is a Bay Area builder focused on making datasets easier to reuse through practical, human-friendly validation. She’s developing FAIRy, a local-first Python tool that runs “preflight” checks and produces actionable reports to help teams fix metadata issues before handoff or repository submission. Jennifer previously spent 10 years in enterprise software product management focused on integrations, and now works on open-source tools that support reproducibility in research and collections data. With a background spanning bioinformatics and sociology, she enjoys bridging scientific workflows and the human realities of collaboration.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/180/",
+    "talkIds": [
+      "170"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Jia Chen",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/14.webp.256x256_q85.png",
+    "bio": "Jia Chen is a Software Engineer working at Meta, where he focuses on Pyrefly, an industrial-strength static type checker and language service for Python. He earned his Ph.D. in Computer Science from the University of Texas at Austin in May 2019. His professional interests are centered around programming language and systems.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/14/",
+    "talkIds": [
+      "15"
+    ]
+  },
+  {
+    "id": "56",
+    "name": "Jian Yin",
+    "photoUrl": null,
+    "bio": "-",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/56/",
+    "talkIds": [
+      "128"
+    ]
+  },
+  {
+    "id": "59",
+    "name": "Joachim Pfefferkorn",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/59_6Nads6u.webp.256x256_q85.jpg",
+    "bio": "Joachim Pfefferkorn is an ex-VFX artist and current software developer. He used to make images for pop stars and mouthwash companies. Now he processes data from big, spinning magnets. Both are good, but he likes the spinning magnet data more.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/59/",
+    "talkIds": [
+      "55"
+    ]
+  },
+  {
+    "id": "179",
+    "name": "Joaquin Matres",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/179.webp.256x256_q85.jpg",
+    "bio": "Joaquin Matres is a chip designer with 15+ years of experience at Intel, Hewlett Packard, PsiQuantum, and Google X. He is the founder of GDSFactory, an open-source Python-based EDA platform used by researchers and industry teams to design photonic, quantum, RF, and mixed-signal hardware. His work focuses on making hardware design programmable, reproducible, and accessible through Python. Joaquín Matres es diseñador de chips con más de 15 años de experiencia en Intel, Hewlett Packard, PsiQuantum y Google X. Es fundador de GDSFactory, la plataforma abierta de diseño en Python utilizada para crear hardware fotónico, cuántico y analógico en más de 25 foundries. Su trabajo se centra en hacer que el diseño de hardware sea programable, reproducible y accesible para investigadores y equipos industriales.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/179/",
+    "talkIds": [
+      "169"
+    ]
+  },
+  {
+    "id": "185",
+    "name": "Jodie Burchell",
+    "photoUrl": null,
+    "bio": "-",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/185/",
+    "talkIds": [
+      "172"
+    ]
+  },
+  {
+    "id": "132",
+    "name": "Jonathan Dekhtiar",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/132.webp.256x256_q85.jpg",
+    "bio": "Jonathan Dekhtiar has been contributing to many Deep Learning libraries, compilers and frameworks since 2019. At NVIDIA, he played a key role in designing Python software and libraries release mechanisms and solving packaging challenges for GPU-accelerated Python code. As a driving and founding member behind the Wheel-Next initiative, Jonathan has dedicated significant energy to advance this open-source effort with the community and is actively working on proof of concepts, demos and on the writing of PEPs. Previous Talk and Conferences: - PyTorch Confere 2025 - PyCon 2025 - CVPR 2020 - Workshop Chair - https://workshop-edlcv.github.io/ - ICML 2019 - Workshop Chair - https://icml.cc/virtual/2019/workshop/3520 - ICML 2019 - Automatic Mixed Precision Training & Inference: https://slideslive.com/38917378/mixed-precision-training-inference",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/132/",
+    "talkIds": [
+      "123"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Joram Mutenge",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/10.webp.256x256_q85.jpg",
+    "bio": "Joram Mutenge is an independent data consultant at Conterval, where he helps small and mid-sized companies turn raw data into clear business insights and publication-ready visualizations. He is the author of Deep Analysis With Polars and works extensively with modern data tools in Python. Joram holds a master’s degree in Data Science from the University of Illinois Urbana-Champaign. Outside of work, he enjoys cycling, listening to podcasts, and keeping up with his favorite TV series.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/10/",
+    "talkIds": [
+      "10"
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Joyce Beatriz Ferreira da Costa Silva",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/48.webp.256x256_q85.png",
+    "bio": "Estudiante del último año de Ingeniería de Software en la Universidad Federal de Goiás (UFG), es GitHub Campus Expert, organizadora del GDG Goiânia y embajadora de Women Techmakers. Ha construido su trayectoria integrando investigación, comunidad e innovación, con enfoque en ciencia de datos e impacto social. Con experiencia en movilidad académica en Argentina y en la UFRN, fue una de las 10 estudiantes seleccionadas globalmente para el GitHub Universe 2025, en San Francisco. Obtuvo el primer lugar en diversidad en el programa Campus Mobile, con una inmersión en Silicon Valley, y en la edición posterior asumió el rol de embajadora de diversidad en Campus Mobile (Claro Brasil), promoviendo la inclusión en la tecnología. Actualmente, es investigadora en el Proyecto Simapes, donde desarrolla un chatbot orientado a políticas públicas y se desempeña como Scrum Master, integrando visión estratégica con ejecución técnica.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/48/",
+    "talkIds": [
+      "46"
+    ]
+  },
+  {
+    "id": "63",
+    "name": "Judite Cypreste",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/63.webp.256x256_q85.jpg",
+    "bio": "Judite Cypreste es periodista de datos con más de 7 años de actuación en las principales redacciones del periodismo brasileño. Participó como keynote en eventos como Python Brasil [14] y también en encuentros regionales como Python Nordeste y Python Cerrado. Presentó en PyCon 2019 y 2023. Cree que el encuentro entre periodistas y programadores puede beneficiar directamente a la sociedad civil.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/63/",
+    "talkIds": [
+      "59"
+    ]
+  },
+  {
+    "id": "75",
+    "name": "Jukka Lehtosalo",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/75.webp.256x256_q85.jpg",
+    "bio": "Jukka is the creator of the mypy static type checker, and the co-author of PEPs 484 (which introduced standardized type hints to Python), PEP 544, PEP 586 and PEP 589. He is one of the founders of typeshed. Jukka works as a Staff Engineer at Dropbox. He is currently leading the mypyc compiler project and optimizing the efficiency of production Python services at Dropbox.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/75/",
+    "talkIds": [
+      "72"
+    ]
+  },
+  {
+    "id": "71",
+    "name": "Juliana Ferreira Alves",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/71.webp.256x256_q85.jpg",
+    "bio": "Juliana Ferreira Alves is a data scientist who works with Python and machine learning on real-world analytics problems, with a focus on People Analytics. She is an active member of the Python community and a PyLady, where she is involved in mentoring and supporting women in tech.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/71/",
+    "talkIds": [
+      "136",
+      "68"
+    ]
+  },
+  {
+    "id": "150",
+    "name": "Justin Lee",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/150.webp.256x256_q85.jpg",
+    "bio": "Justin Lee is a software engineer, consultant, and educator who has taught Udacity nanodegree courses on cloud infrastructure, Kubernetes, and software architecture. He specializes in applying design principles to developer tooling, particularly Python dependency management at scale. Justin believes in building systems that guide users toward correct outcomes rather than expecting them to become packaging experts.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/150/",
+    "talkIds": [
+      "142"
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Jyoti Yadav",
+    "photoUrl": null,
+    "bio": "-",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/72/",
+    "talkIds": [
+      "69"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Kas Stohr",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/5.webp.256x256_q85.jpg",
+    "bio": "I am currently the Lead Data Scientist at Unified (https://www.unified.me/), a social network for activists and organizers. At Unified, I am building tools to help personalize users' home feeds and enable discovery. Previously, I led a Data Science team at Simon & Schuster focused on identifying trends in the publishing industry. I specialize in civic data. My first job as a data scientist was to cover the 2016 elections as part of Univision's Fusion Media Group's data science team (That was interesting.). I earned my specialization in Data Science online from Johns Hopkins University in 2015. This is my third career (and counting.)",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/5/",
+    "talkIds": [
+      "5",
+      "13"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Kattni",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/6.webp.256x256_q85.jpg",
+    "bio": "Kattni (she/her) is a creator, maker, photographer, programmer, classically trained vocalist, intermittent chef, air plant cultivator, casual knitter, and fledgling synth nerd. She is passionate about learning new things, and sharing her knowledge in an approachable way. She is tolerated by a cat and three kittens who continue to let her live with them. She is a core development team member with the BeeWare project, where she focusses on improving the documentation and information architecture. She has orchestrated a complete shift of the documentation backend from Sphinx to MkDocs, as well as moving the website from Lektor to MkDocs. She is working on building a community around the project by, among other things, making contributing more approachable through various changes in their contribution process.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/6/",
+    "talkIds": [
+      "6"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Koudai Aono",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/29.webp.256x256_q85.jpg",
+    "bio": "I am a software developer based in Tokyo, with a strong focus on Python. I enjoy contributing to Open Source Software (OSS) with a goal to make the development environment friendlier.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/29/",
+    "talkIds": [
+      "28"
+    ]
+  },
+  {
+    "id": "186",
+    "name": "Laís Carvalho",
+    "photoUrl": null,
+    "bio": "-",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/186/",
+    "talkIds": [
+      "172"
+    ]
+  },
+  {
+    "id": "54",
+    "name": "Larry Hastings",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/54.webp.256x256_q85.jpg",
+    "bio": "Larry is an experienced software developer and an aspiring computer scientist. He's been a Pythonista since the late 90s, as well as a CPython core developer for over fifteen years, and was the Release Manager for Python 3.4 and 3.5. His contributions to Python include Argument Clinic, PEP 649, and inventing equals-signs-in-f-strings!",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/54/",
+    "talkIds": [
+      "51"
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Laszlo Kiss Kollar",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/33.webp.256x256_q85.jpg",
+    "bio": "Laszlo has been a Python practitioner for over 10 years, specializing in infrastructure and tooling. Since 2018, he has worked on Bloomberg’s Python Infrastructure team. He is an active open-source contributor, with contributions to projects like CPython, auditwheel, and manylinux.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/33/",
+    "talkIds": [
+      "31"
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Laura Meng",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/43.webp.256x256_q85.jpg",
+    "bio": "Laura Meng is an Android developer turned Solutions Engineer who loves exploring how technology connects to real-world problems. She writes code in multiple languages to bridge the gap between engineering and the market. Recently becoming a first-time parent inspired her to find creative ways to blend tech into everyday life.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/43/",
+    "talkIds": [
+      "41"
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Lisa Smith",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/62.webp.256x256_q85.png",
+    "bio": "I’m a Python developer and data engineer working at a cancer research institute, where I build secure, production data pipelines and web applications using Python, Flask, pandas, and SQL Server. My work focuses on delivering validated, near–real-time data to clinicians and researchers through internal applications, while managing the realities of messy input data, performance constraints, and security requirements. I design and maintain systems that transform user-supplied data into structured, standards-compliant outputs, including applications that map clinical data to FHIR resources without requiring users to understand healthcare interoperability standards.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/62/",
+    "talkIds": [
+      "58"
+    ]
+  },
+  {
+    "id": "83",
+    "name": "Madison Ficorilli",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/83.webp.256x256_q85.jpg",
+    "bio": "Madison Ficorilli (Oliver) is a staff security manager at GitHub, leading the advisory database team that helps the Python community and broader open source ecosystem identify and respond to vulnerabilities. She has advised projects in the GitHub Secure Open Source Fund on security best practices and helped facilitate Python security open spaces at PyCon US 2024 and 2025. She serves on the CVE Program Board and participates in Open Source Security Foundation (OpenSSF) working groups, advocating for vulnerability transparency and disclosure. Her experience spans product incident response at GitHub and vulnerability coordination at the CERT Coordination Center at Carnegie Mellon University. Passionate about education, Madison formerly taught undergraduate cybersecurity at Duquesne University and serves on Penn State's College of Information Sciences and Technology alumni board.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/83/",
+    "talkIds": [
+      "79"
+    ]
+  },
+  {
+    "id": "130",
+    "name": "Mahmoud Hashemi",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/130.webp.256x256_q85.jpg",
+    "bio": "Mahmoud Hashemi is founder of FinFam and the Bay Area Python Association. He's a Python Software Foundation Fellow, Wikimedian, and previously built software and teams at PayPal and Stripe. You can catch him blogging and more at sedimental.org.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/130/",
+    "talkIds": [
+      "121"
+    ]
+  },
+  {
+    "id": "187",
+    "name": "Maike Scherer",
+    "photoUrl": null,
+    "bio": "-",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/187/",
+    "talkIds": [
+      "172"
+    ]
+  },
+  {
+    "id": "84",
+    "name": "Mariatta",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/84.webp.256x256_q85.jpg",
+    "bio": "Mariatta is a Python Core Developer, open source maintainer, and community leader with over 15 years of experience in software development. She is passionate about workflow improvements and automation, as well as building inclusive and diverse developer communities. She co-hosts the PyPodcats: Hidden Figures of Python, a podcast series aiming to share stories and give visibility of contributions from the underrepresented group members in the Python community. As a serial conference organizer, Mariatta has helped kickstarted the PyCascades and PyLadiesCon conferences. For her contributions to the Python open source community, she has received the Python Software Foundation Community Service award and Google Open Source Peer Bonus award. She also appears in the official Python Documentary.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/84/",
+    "talkIds": [
+      "80"
+    ]
+  },
+  {
+    "id": "61",
+    "name": "Mario Munoz",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/61.webp.256x256_q85.png",
+    "bio": "In my past lives, I've enjoyed playing guitar and bass, kicking a soccer ball, or playing an occasional video game. In my career, I've been an editor at a non-profit, taught as a pre-school teacher, managed payroll for a professional baseball team, and worked as an analyst/project manager for HR systems. More recently, I've been working as a software engineer for almost two years at a company called BCM One. I also code Python by night, which is what happens when there's not enough time during the day to poke around and break things. In the past couple of years, I've presented several talks/tutorials at PyCon US, DjangoCon US, Python Web Conference, North Bay Python, PyGotham, PyOhio, and others. Sometimes I neglect/blog on my website Python By Night, and start (or abandon) too many side projects. Photo by Bartek Pawlik @ DjangoCon US 2025",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/61/",
+    "talkIds": [
+      "99",
+      "57"
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Mark Shannon",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/44.webp.256x256_q85.png",
+    "bio": "Mark has been using Python since 2005, and has been contributing to CPython since 2010. After a long interlude working on static analysis tools, he has been working on speeding up Python for the last five years. His academic and commercial work is focused on compilers, virtual machines and static analysis for Python. His PhD was on building virtual machines for dynamic languages. He is the author of various PEPs including 412, 590, 626 and 659. Mark is currently working as a Principal Software Engineer in Arm’s Runtimes team",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/44/",
+    "talkIds": [
+      "42"
+    ]
+  },
+  {
+    "id": "114",
+    "name": "Mason Egger",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/114.webp.256x256_q85.jpg",
+    "bio": "Mason is currently a Senior Solutions Architect at Temporal Technologies, where he works with customers to architect and implement durable execution solutions. He specializes in Python, distributed systems, building community, and creating developer-focused educational content. He has held roles in the Developer Relations departments at Temporal, Gretel, and DigitalOcean. Prior to moving to Developer Relations, he held engineering roles at Forcepoint (Raytheon) and Vrbo (Expedia). He’s an avid programmer, speaker, educator, and writer/blogger. He is President of the PyTexas Foundation, Conference Chair of the PyTexas Conference, and a founding organizer of the PyTexas Meetup. He was made a PSF Fellow in October 2025. \"On my business card, I am a Solutions Architect. In my mind, I am a programmer. But in my heart, I am a teacher.\" - paraphrased, original quote from Satoru Iwata",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/114/",
+    "talkIds": [
+      "107"
+    ]
+  },
+  {
+    "id": "169",
+    "name": "Matt Harrison",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/169.webp.256x256_q85.jpg",
+    "bio": "Matt Harrison is a Python trainer, author, and consultant at MetaSnake, helping teams write clear, maintainable, and production-ready Python code. He is the author of several best-selling books, including Effective Pandas and Effective XGBoost, and has trained engineers and data scientists at organizations ranging from startups to Fortune 100 companies. Matt specializes in practical Python workflows, modern tooling, and teaching developers how to apply new technologies—such as AI-assisted coding—without sacrificing code quality or engineering discipline. He is a frequent conference speaker and instructor, known for hands-on, example-driven sessions that focus on real-world Python development rather than abstractions or hype.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/169/",
+    "talkIds": [
+      "160"
+    ]
+  },
+  {
+    "id": "58",
+    "name": "Matthew Johnson",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/58.webp.256x256_q85.jpg",
+    "bio": "Matthew Johnson is a Principal Research Software Engineer with a Ph.D. in AI and Machine Learning as well as almost two decades of experience inventing new technologies that harness the power of Computer Vision and Artificial Intelligence, while prioritizing the privacy and security of user data. He works for Microsoft's Azure Research group and is an Affiliated Lecturer at the University of Cambridge, where he teaches AI and Computer Science. His first Python was 2.2, and he is continually amazed by the ability of the language (and its community) to evolve and change.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/58/",
+    "talkIds": [
+      "54"
+    ]
+  },
+  {
+    "id": "94",
+    "name": "Mia Bajić",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/94.webp.256x256_q85.jpg",
+    "bio": "I'm a software engineer with roots in developer experience and the data domain. I've built backend systems, SDKs, and beautiful web apps. I'm also the Vice-Chair of the EuroPython Society, the non-profit behind the EuroPython conference, and I'm involved in organizing local events in Prague. Outside of work, I also host Behind the Commit on YouTube, where I chat with people shaping the open source in Europe and beyond.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/94/",
+    "talkIds": [
+      "90"
+    ]
+  },
+  {
+    "id": "133",
+    "name": "Michael Droettboom",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/133.webp.256x256_q85.jpg",
+    "bio": "Michael Droettboom is a distinguished CPython core developer. He currently contributes to the intersection of Python and CUDA at Nvidia. Until 2025, he lead Faster CPython team, driving the integration of a JIT compiler into the main interpreter. Under his leadership, Python 3.14 achieved 20%–40% speed improvements over 3.10, and experimental JIT support was merged alongside a specializing adaptive interpreter. A key contributor to the scientific Python ecosystem, Michael was the former lead maintainer of Matplotlib, a primary contributor to Astropy, and the creator of Pyodide—bringing the full Python stack to WebAssembly in the browser.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/133/",
+    "talkIds": [
+      "123"
+    ]
+  },
+  {
+    "id": "137",
+    "name": "Michael Scott Asato Cuthbert",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/137_pjulmLY.webp.256x256_q85.jpg",
+    "bio": "Michael Scott Asato Cuthbert works at the intersection of computation, AI, and music. Until 2024, he was a professor of music at MIT, where he taught computational music analysis and music theory using Python and founded the MIT Digital Humanities Lab. He is the creator and principal investigator of music21, the open-source Python toolkit widely used for analyzing, teaching, and researching music and musical scores. Cuthbert is also a co-founder of Artusi, a platform for teaching music theory and aural skills online, built with Python and Django.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/137/",
+    "talkIds": [
+      "127"
+    ]
+  },
+  {
+    "id": "160",
+    "name": "Michael Yh Wang",
+    "photoUrl": null,
+    "bio": "-",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/160/",
+    "talkIds": [
+      "102"
+    ]
+  },
+  {
+    "id": "77",
+    "name": "Mike Fiedler",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/77.webp.256x256_q85.jpg",
+    "bio": "Mike is a professional engineer with over three decades of experience, having held senior leadership roles at companies including Datadog, MongoDB, LeafLink, Warby Parker, and Paribus (Capital One). He is dedicated to continuous learning and mentoring. He is a recognized contributor to the tech community, having been a conference speaker since 2012. His accolades include the Awesome Community Chef Award (2016) and being an AWS Container Hero since 2018. Currently working as the PyPI Safety & Security Engineer at the Python Software Foundation, he devotes his free time to working on open source tools, learning new technologies, and volunteering as a roller derby referee. With a holistic view of systems and software and a passion for problem-solving, Mike helps others navigate the complexities of the tech world. He can be found on Mastodon, GitHub, or wearing stripes at a roller derby game near you.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/77/",
+    "talkIds": [
+      "74"
+    ]
+  },
+  {
+    "id": "141",
+    "name": "Mike Müller",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/141.webp.256x256_q85.jpg",
+    "bio": "Dr. Mike Müller has been working with Python since 1999 and teaching it professionally since 2004. As a trainer at Python Academy (https://www.python-academy.com), he has taught over 580 Python courses totaling more than 1,400 teaching days to thousands of participants worldwide. Mike has taught more than 75 tutorials at Python conferences, including 29 tutorials at PyCon US over the years. He is known for his hands-on teaching approach, live coding demonstrations, and comprehensive course materials that participants can use as references long after the tutorial ends. His tutorials blend practical examples with solid theoretical foundations, making complex topics accessible and immediately applicable. Beyond teaching, Mike is deeply involved in the Python community. He has organized conferences including PyCon DE, EuroSciPy, and numerous BarCamps. His contributions to the community have been recognized with the PSF Community Service Award and PSF Fellow status. He serves as chair of the German Python Software Verband. Mike holds a doctorate in hydrology and brings a scientific perspective to programming education. He believes in learning by doing and creates supportive environments where participants feel comfortable asking questions and experimenting with code.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/141/",
+    "talkIds": [
+      "133"
+    ]
+  },
+  {
+    "id": "81",
+    "name": "Myles Scolnick",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/81.webp.256x256_q85.jpg",
+    "bio": "Building marimo, a next-generation Python notebook.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/81/",
+    "talkIds": [
+      "78"
+    ]
+  },
+  {
+    "id": "104",
+    "name": "Neha",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/104.webp.256x256_q85.jpg",
+    "bio": "I’m currently a causal inference and ML policy researcher. I’m also the primary owner and maintainer of dame-flame, a Python package for matching in causal inference. In the past, I’ve worked for intergovernmental organizations as an AI Research Fellow, and in the tech world as a software engineer. This is my second year running a PyCon tutorial, and I'm excited for a fun few hours! My other Python teaching experience includes courses at the undergraduate or masters level Intro Stats with Python, Advanced ML with Python, and Intro to Programming with Python. I've also taught Girls Who Code clubs for middle school students.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/104/",
+    "talkIds": [
+      "100"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Nicolas Emir Mejia Agreda",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/17.webp.256x256_q85.png",
+    "bio": "Hello! I'm Nicolas Emir Mejia Agreda, a Jr. Business Intelligence Analyst at WET CHEMICAL BOLIVIA, where I work with Python, data analytics, and AI tools to transform information into actionable insights. My daily work involves building dashboards, optimizing data pipelines, and supporting decision-making across different areas of the company. I'm deeply involved in Bolivia’s tech ecosystem as part of Women Techmakers Santa Cruz, GDG Santa Cruz, YAIS, UxODS, and Ethereum Bolivia. Through these communities, I help organize events, mentor beginners, and promote learning opportunities in data, AI, and modern software development. My proposed talk for PyCon US 2026 focuses on building modern, lightweight, and scalable applications using Python, Streamlit, and Supabase. I want to show how developers can create fast, clean prototypes—and even production-ready apps—by combining the simplicity of Python with the power of cloud-native databases and authentication. I'm excited to connect, learn, and share new ideas with the global Python community.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/17/",
+    "talkIds": [
+      "17"
+    ]
+  },
+  {
+    "id": "177",
+    "name": "Niels Bantilan",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/177.webp.256x256_q85.jpg",
+    "bio": "Niels is a chief machine learning engineer and core maintainer of Flyte, an open source ML orchestration tool and author and maintainer of Pandera, a data testing tool for dataframes. He has a Master's in Public Health with a specialization in sociomedical science and public health informatics, and prior to that, a background in developmental biology and immunology. His research interests include reinforcement learning, AutoML, creative machine learning, and fairness, accountability, and transparency in automated systems. He enjoys developing open source tools to make data science and machine learning practitioners more productive.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/177/",
+    "talkIds": [
+      "167"
+    ]
+  },
+  {
+    "id": "49",
+    "name": "nikkie",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/49.webp.256x256_q85.jpg",
+    "bio": "Nikkie began his career as a software engineer in 2016. He started Python as a hobby in 2017 and fell in love with it. He is engaged in Natural Language Processing as a data scientist at Uzabase, inc. Tokyo, Japan from 2019. He is working on the Python community in Japan as a staff of the following event: Start Python Club (online, monthly) PyCon Japan: the largest PyCon in Japan core staff on 2019 and 2020 (Program committee, lead on 2020) chair on 2021 He gave talks at many PyCons in Japan and abroad. PyCon JP 2019, 2020, 2022, 2023, 2025 (Japanese), 2024 (English) EuroPython 2020, PyCon Africa 2020, PyCon APAC 2020 2022 (English)",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/49/",
+    "talkIds": [
+      "47"
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Pablo Galindo Salgado",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/32.webp.256x256_q85.jpg",
+    "bio": "Pablo Galindo Salgado works in the Python team of Hudson River Trading. He is a CPython core developer and a Theoretical Physicist specializing in general relativity and black hole physics. He is currently serving on the Python Steering Council in his 6th term and he is the release manager for Python 3.10 and 3.11. He has also a cat but he does not code.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/32/",
+    "talkIds": [
+      "31"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Pamela Fox",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/2_NqGzb7l.webp.256x256_q85.jpg",
+    "bio": "Pamela Fox is a Python Cloud Advocate at Microsoft who loves to learn, teach, and create. She was an early developer advocate at Google, a full-stack dev at Coursera, and the CS content creator at Khan Academy. She also taught CS at UC Berkeley and for multiple non-profits, like GirlDevelopIt, Girls Who Code, and CoderDojo.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/2/",
+    "talkIds": [
+      "2"
+    ]
+  },
+  {
+    "id": "111",
+    "name": "Paolo Melchiorre",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/111.webp.256x256_q85.jpg",
+    "bio": "Ciao! I’m Paolo Melchiorre (aka paulox), a Python backend developer, Django contributor, and Python Software Foundation Fellow. As a member of the Django Software Foundation, I serve also as a board member. Additionally, I’m a coach and organizer for Django Girls, and a navigator for the Djangonaut Space mentorship program. In my community involvement, I organize PyCon Italia, have founded the local Python Pescara community, and am a member of the Python Italia association. As a professional, I’m also a conference speaker, technical blogger at www.paulox.net, a GNU/Linux user, and a Free Software advocate. My academic background includes a degree in Computer Engineering from the University of Bologna.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/111/",
+    "talkIds": [
+      "105"
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Paul Ganssle",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/41.webp.256x256_q85.jpg",
+    "bio": "Paul Ganssle is a software developer at Google and contributor to various open source projects. Among other projects, he is a core developer of the Python language and created the zoneinfo module. He lives in Somerville, MA with his wife and two children, where in his free time he solves mysteries with a time-traveling Jackdaw named Demetrius.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/41/",
+    "talkIds": [
+      "39"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Paul Zuradzki",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/16_uSQjzCt.webp.256x256_q85.jpg",
+    "bio": "Paul Zuradzki is a Lead Senior Data Science Engineer at Turquoise Health, where he works to increase price transparency and make simpler, up-front transactions in US healthcare. His recent work is in backend web development with Django and data pipelines using Python, SQL, and Airflow. Previously, he worked in healthcare data analytics and consulting. He's particularly interested in technical training, software testing, privacy, security, and sandboxing for coding agents. He's based in Chicago, Illinois. 🧑‍💻🧑‍🧑‍🧒⚕️🐶🐍🪄🚴✈️🇺🇸🇵🇱 paulzuradzki.com",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/16/",
+    "talkIds": [
+      "64",
+      "16"
+    ]
+  },
+  {
+    "id": "86",
+    "name": "Piper Thunstrom",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/86.webp.256x256_q85.jpg",
+    "bio": "Piper is a pythonista, game enthusiast, and web developer. You might know her from her talks given at conferences around the United States, a local tech meetup, or her open source work. She speaks on community building, game development, CS education, and trans identity in tech. She's been involved in the Python community since 2014 with previous experience as an organizer in the NYC Python user groups. You can follow her work at piper.thunstrom.dev",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/86/",
+    "talkIds": [
+      "82"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Puneet Khushwani",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/21.webp.256x256_q85.jpg",
+    "bio": "Puneet’s professional ethos is captured in his mantra: “Never Stop Building.” With over a decade of experience across startups and enterprise-scale companies, he currently serves as a Senior Engineering Manager at GoDaddy, supporting the Data & Personalization team.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/21/",
+    "talkIds": [
+      "21"
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Rafael Mendes de Jesus",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/34.webp.256x256_q85.png",
+    "bio": "Rafael works with data and Python, focusing on simplifying manual and repetitive tasks through practical automation. His background spans analytics, business intelligence, and data workflows, often working closely with non-technical teams. Over time, he started using Python not just for analysis, but as a way to reduce friction in everyday work by turning manual processes into simple, reliable scripts. Rafael is an active participant in the Python community. He regularly shares knowledge through talks, meetups, and community events, with a strong focus on real-world use cases and approachable solutions. He has spoken at events such as Python Brazil, PyCon Chile, Python Southeast, Campus Party Brazil, and local Python meetups, usually presenting practical examples that people can apply in their own work. His main interest is helping more people feel comfortable using Python to solve real problems, especially those coming from analytics, Excel, or business-oriented backgrounds.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/34/",
+    "talkIds": [
+      "32"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Reuven M. Lerner",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/19.webp.256x256_q85.jpg",
+    "bio": "Reuven teaches Python, Pandas, and Git to people around the world via his LernerPython platform. He publishes the \"Better Developers\" and \"Bamboo Weekly\" newsletters, has written \"Python Workout\" and \"Pandas Workout\" for Manning, and is currently working on \"AI-Assisted Python for Nonprogrammers\" for O'Reilly.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/19/",
+    "talkIds": [
+      "19"
+    ]
+  },
+  {
+    "id": "113",
+    "name": "Robert Masson",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/113.webp.256x256_q85.jpg",
+    "bio": "Robert is a Founding Scientist at ArchAstro (founded in January, 2026). Previously, he was a Senior Principal Data Scientist at Atlassian, spent 10 years as a data scientist at Meta, and was a quant researcher at a hedge fund. He started using python in the mid-2000s as a PhD student in Math. He enjoys climbing, skiing, hiking, and good beer.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/113/",
+    "talkIds": [
+      "106"
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Russell Keith-Magee",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/38.webp.256x256_q85.jpg",
+    "bio": "Dr Russell Keith-Magee is the founder of the BeeWare project, a project developing GUI tools and libraries to support the development of Python software on desktop and mobile platforms. He joined the Django core team in 2006, and was the President of the Django Software Foundation for 5 years. He joined the CPython core team in 2024. He is a frequent speaker at Python and Django conferences around the globe, sharing his experience as a FLOSS developer, community maintainer, and (unsuccessful) startup founder. In his day job, he is a Principal Engineer at Anaconda, working on BeeWare in the OSS team.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/38/",
+    "talkIds": [
+      "36"
+    ]
+  },
+  {
+    "id": "124",
+    "name": "Sanchit Sahay",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/124.webp.256x256_q85.png",
+    "bio": "Sanchit is a graduate student at NYU's Secure Systems Lab where he's involved with operating systems and software supply-chain security research. Prior to joining NYU he worked on building data protection software at Commvault's virtualization team. He's yet to meet a systems conversation he can walk away from.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/124/",
+    "talkIds": [
+      "116"
+    ]
+  },
+  {
+    "id": "85",
+    "name": "Santosh Appachu Devanira Poovaiah",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/85.webp.256x256_q85.jpg",
+    "bio": "I am a Senior CPU/GPU Design & Verification Engineer working on large-scale, high-performance computing platforms that power modern AI and scientific workloads. My work focuses on full-chip coherency, heterogeneous compute systems, and understanding how Python-based machine learning frameworks behave across different GPU architectures, memory hierarchies, and SDK environments. I spend much of my time investigating nondeterministic behavior, performance drift, and reproducibility issues in real-world AI pipelines. Alongside my engineering career, I am an active researcher with published work on AI–hardware interaction, cache-coherency behavior, logic locking, and cross-SDK GPU benchmarking. I enjoy bridging hardware concepts with practical Python workflows and helping developers understand how underlying system behavior influences model training and inference. Previously, I served as a Teaching Assistant at the University of Southern California while completing my master’s degree. I also mentor students, judge hackathons, and frequently speak at technical conferences about AI systems, performance engineering, and debugging complex workloads. I am passionate about helping Python developers build stable, reliable, and reproducible AI pipelines by demystifying the layers of software and hardware that influence real-world model behavior.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/85/",
+    "talkIds": [
+      "81"
+    ]
+  },
+  {
+    "id": "135",
+    "name": "Sarah Kaiser",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/135.webp.256x256_q85.jpg",
+    "bio": "Sarah has spent most of her career developing technology in the lab, from virtual reality hardware to satellites. She got her PhD in Physics by starting plasma fires with lasers, Python, and Jupyter Notebooks. She has also written tech books for folks of all ages, including ABCs of Engineering and Learn Quantum Computing with Python and Q#. As a Cloud Developer Advocate for Python at Microsoft and a Python Software Foundation Fellow, she finds all kinds of new ways to build and break OSS tools for data science and machine learning. When not at her split ergo keyboard, she loves boating in the Seattle area, laser cutting everything, and playing with her German Shepard, Chewie.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/135/",
+    "talkIds": [
+      "125"
+    ]
+  },
+  {
+    "id": "70",
+    "name": "Savannah Ostrowski",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/70.webp.256x256_q85.jpg",
+    "bio": "Savannah Ostrowski is a Python Steering Council member, the Python 3.16 & 3.17 Release Manager, and a CPython Core Developer. She contributes across several areas of CPython, including the JIT compiler, the argparse module, WASI support, and more. She also works at FastAPI Labs, where she builds FastAPI Cloud and contributes to open source projects across the Python ecosystem.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/70/",
+    "talkIds": [
+      "67"
+    ]
+  },
+  {
+    "id": "82",
+    "name": "Shelby Cunningham",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/82.webp.256x256_q85.jpg",
+    "bio": "Shelby Cunningham has been an advisory curator for the GitHub Advisory Database (GHAD) for five years. Her duties include, but are not limited to, organizing and publishing vulnerability information for the GHAD and gathering vulnerability information from project maintainers on GitHub to submit to the CVE list. Shelby has supported best security practices in the Python community by advising projects that are part of the GitHub Secure Open Source Fund and assisting with Python security open spaces at PyCon US 2024 and 2025. In 2025, she responded to multiple incidents involving compromise of legitimate packages in ecosystems supported by the GHAD.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/82/",
+    "talkIds": [
+      "79"
+    ]
+  },
+  {
+    "id": "40",
+    "name": "Shir Havron",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/40.webp.256x256_q85.jpg",
+    "bio": "Hi! My name is Shir! I am a Python enthusiast, a software engineer, and an open source software advocate. In my free time I indulge in poetry, music writing and performance, and transgender rights activism in my local community. I am always happy to connect and meet new people, learn and share my experiences!",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/40/",
+    "talkIds": [
+      "38"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Steven Troxler",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/15.webp.256x256_q85.jpg",
+    "bio": "Steven is part of the Python language tooling team at Meta, currently working on the Pyrefly type checker (https://github.com/facebook/pyrefly) In addition to his work on first Pyre and then Pyrefly at Meta, Steven helps coordinate activities for the Python typing community and was a co-author of PEP 698 adding an @overload decorator to Python. He has co-hosted the PyCon typing summit the past two years in 2024 and 2025. Before he got into writing Python language tools, Steven studied mathematics and statistics and spent a number of years working at the intersection of data science and engineering, scientific computing, and building infrastructure to enable teams of scientists.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/15/",
+    "talkIds": [
+      "15"
+    ]
+  },
+  {
+    "id": "116",
+    "name": "Sushant Singh",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/116.webp.256x256_q85.jpg",
+    "bio": "Sushant Singh is a software engineer and technical leader focused on building production Python systems for complex, high-impact domains. He has worked across healthcare, biopharma, finance, and large-scale data platforms, designing systems where correctness, traceability, and trust are critical. His work centers on Python APIs and data modeling, with extensive experience using FastAPI, Pydantic, and graph databases to connect and reason over complex domains. He has also contributed to open-source projects in the VOIP space, working on real-time systems where performance and reliability matter. Sushant is particularly interested in how conversational interfaces can be grounded in structured data and explicit relationships, enabling systems to answer qualitative “why” questions rather than simply retrieve information. He enjoys sharing practical lessons from building and operating Python systems in production environments.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/116/",
+    "talkIds": [
+      "109"
+    ]
+  },
+  {
+    "id": "67",
+    "name": "Thomas Wouters",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/67.webp.256x256_q85.png",
+    "bio": "Cat owner, Python Core Team member, Release Manager for Python 3.12 and 3.13, Python Steering Council member, former PSF Board chair, Meta employee working on Free-threaded Python and various other projects.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/67/",
+    "talkIds": [
+      "63"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Trey Hunner",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/26.webp.256x256_q85.jpg",
+    "bio": "Trey Hunner is a Python Software Foundation Fellow, former PSF Director, one of the founding members of the PSF Code of Conduct workgroup, and a semi-regular attend of his local Python meetup in San Diego. Trey specializes in Python education and corporate training. You can learn from Trey through his weekly Python tips newsletter and his Python Morsels learning platform.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/26/",
+    "talkIds": [
+      "25",
+      "83"
+    ]
+  },
+  {
+    "id": "148",
+    "name": "Tristan McKinnon",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/148.webp.256x256_q85.jpg",
+    "bio": "I build data systems for environments where a single compromised credential can expose millions of patient records. By day I'm a Senior Healthcare Data Engineer at Axle Informatics, designing zero-trust pipelines for genomic and clinical data at NIH scale. I also run Deterministic Systems Lab, where I do independent security research, and I'm a doctoral student in AI/ML at George Washington University. Most of my work orbits a core problem: identity and trust in high-velocity data systems. I developed the Identity-Per-Transaction protocol — credentials that are cryptographically scoped to a single transaction and gone the moment it completes, published in IEEE BigDataSecurity. From there I've been building outward: cryptographic lineage so every transformation is auditable, and purpose-aware query governance using graph neural networks to enforce data use restrictions before a result ever leaves a clinical knowledge graph. I spend a lot of time thinking about what 'secure by design' actually means when your data is regulated, your pipelines are serverless, and your threat model includes people who work there. Happy to talk shop on any of it; find me after the talk or just grab me in the hallway.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/148/",
+    "talkIds": [
+      "140"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Valentina Lazaro",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/18.webp.256x256_q85.png",
+    "bio": "Valentina Lázaro es Ingeniería en Sistemas Informáticos, actualmente trabajando en automatización de procesos, con un fuerte interés en la tecnología aplicada al impacto social. Se ha especializado en el desarrollo de soluciones digitales, análisis de datos y proyectos basados en inteligencia artificial, destacando su trabajo en sistemas de apoyo a la salud mental y herramientas de gestión organizacional. Es líder activa en iniciativas académicas y comunitarias, formando parte de programas internacionales como Aspire Leaders Program y colaborando en espacios de innovación, liderazgo y tecnología. Su enfoque combina compromiso social y desarrollo tecnológico orientado a resolver problemáticas reales.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/18/",
+    "talkIds": [
+      "18"
+    ]
+  },
+  {
+    "id": "79",
+    "name": "Veronica Rodriguez Viveros",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/79.webp.256x256_q85.jpg",
+    "bio": "Verónica Rodríguez Viveros is a technology and product professional with a background in economics and more than ten years of experience in the design and management of digital products in fintech, cybersecurity, and global technology platforms. She currently serves as Senior Product Manager at a technology company in Silicon Valley, where she works on products used by developers and companies in different countries. Beyond her corporate role, Verónica is the co-founder of a community focused on increasing the participation of people of African descent in technology in Colombia and Latin America. From there, she has led and accompanied training, mentoring, and technical community-building processes, using tools such as Python to facilitate access to digital skills, employment, and leadership in the technology industry. She is a YLAI Fellow of the U.S. Department of State, an ambassador for women in technology initiatives, and a speaker at academic and community events. Her work lies at the intersection of technology, social impact, and inclusion, with a particular focus on how free software and technical communities can become real drivers of social mobility for historically underrepresented populations.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/79/",
+    "talkIds": [
+      "76",
+      "132"
+    ]
+  },
+  {
+    "id": "115",
+    "name": "Vinayak Mehta",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/115.webp.256x256_q85.jpg",
+    "bio": "Working on open-source tools http://fleurmcp.com, camelot, present, excalibur, and many more. F20 @recursecenter.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/115/",
+    "talkIds": [
+      "108"
+    ]
+  },
+  {
+    "id": "73",
+    "name": "Vinícius Gubiani Ferreira",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/73.webp.256x256_q85.jpg",
+    "bio": "Currently Python specialist @ Azion Technologies, but also had several job titles and responsibilities during the 8+ years with the company. Including backend software engineer (mostly Django, Docker, k8s, Python 2 --> 3), QA/QE team lead, UXE manager. Worked on other companies, but unfortunately not using Python a lot. Active reviewer on CFP for Python conferences. If you submitted a talk or tutorial for PyCon US, EuroPython, PyCon Italia, ... There is a good chance I read it. Also volunteer as a mentor for 1st time speakers at conferences. Love to code, to read other people's code, and to help others achieve what they want with code. Be it directly or by guiding them to find out for themselves.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/73/",
+    "talkIds": [
+      "70"
+    ]
+  },
+  {
+    "id": "176",
+    "name": "Vyas Ramasubramani",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/176.webp.256x256_q85.png",
+    "bio": "Vyas Ramasubramani is a software engineer at NVIDIA on the RAPIDS team, where he develops GPU-accelerated libraries for data science and machine learning. He primarily works on cuDF, a high-performance GPU DataFrame library. He holds a Ph.D. in Chemical Engineering and Scientific Computing from the University of Michigan, where he studied self-assembly in soft matter physics, and a bachelor’s degree in Chemical and Biological Engineering from Princeton with certificates in Applications of Computing as well as Quantitative and Computational Biology.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/176/",
+    "talkIds": [
+      "81"
+    ]
+  },
+  {
+    "id": "55",
+    "name": "Wenxin Jiang",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/55.webp.256x256_q85.jpg",
+    "bio": "I am a PhD candidate in Biostatistics at the City University of Hong Kong. My research interests lie in high-dimensional statistical machine learning and data science, with applications in genetics and genomics data.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/55/",
+    "talkIds": [
+      "128"
+    ]
+  },
+  {
+    "id": "129",
+    "name": "Yineng Zhang",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/129.webp.256x256_q85.jpg",
+    "bio": "Yineng Zhang is a Senior Director leading the inference team at Together AI. He also serves on the governing board of the LightSeek Foundation, where he co-created TokenSpeed — a speed-of-light LLM inference engine.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/129/",
+    "talkIds": [
+      "120"
+    ]
+  },
+  {
+    "id": "80",
+    "name": "Zanie Blue",
+    "photoUrl": "https://pycon-assets.s3.amazonaws.com/2026/media/speaker_photos/80.webp.256x256_q85.jpg",
+    "bio": "Zanie is passionate about empowering developers and scientists through powerful, friendly tooling. They have a background in computational neuroscience and bioinformatics, but now they build open source tools for Python in Rust at Astral. They live in Minneapolis with a very cute dog named Basho, and their (also very cute) partner, Ciara.",
+    "profileUrl": "https://us.pycon.org/2026/speaker/profile/80/",
+    "talkIds": [
+      "77"
+    ]
+  }
+]
