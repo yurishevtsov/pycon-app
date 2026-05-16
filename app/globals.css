@@ -8,10 +8,3 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Defensive safety net: no page-level horizontal scroll on any route,
-   even if a child decides to be wider than the viewport. `clip` (vs `hidden`)
-   keeps sticky/fixed positioning working correctly. */
-html,
-body {
-  overflow-x: clip;
-}

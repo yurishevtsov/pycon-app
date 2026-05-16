@@ -31,9 +31,9 @@ export function FavoritesClient({ talks }: { talks: Talk[] }) {
   }
 
   return (
-    <ul className="grid gap-2">
+    <ul className="grid grid-cols-1 gap-2">
       {starred.map((t) => (
-        <li key={t.id}>
+        <li key={t.id} className="min-w-0">
           <TalkCard talk={t} />
         </li>
       ))}
